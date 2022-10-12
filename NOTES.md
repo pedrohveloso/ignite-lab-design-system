@@ -33,3 +33,15 @@ Instale o pacote Checkbox do Radix UI com o comando:
 
 Instale o pacote Deployer do Storybook com o comando:
 > npm i @storybook/storybook-deployer --save-dev
+
+# GitHub CLI
+ 
+ **Chocolatey install**
+  - Install: > choco install gh
+  - Upgrade: > choco upgrade gh
+
+> gh auth login
+- Para conectar o seu dispositivo ao GitHub
+
+> gh repo create
+- Para criar o repositorio
