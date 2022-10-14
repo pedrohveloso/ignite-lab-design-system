@@ -37,6 +37,28 @@ Instale o pacote Deployer do Storybook com o comando:
 Instale o addon de acessibilidade a11y do Storybook:
 > npm install @storybook/addon-a11y
 
+Instale o addon de testes do Storybook:
+> npm install @storybook/addon-interactions @storybook/jest @storybook/testing-library @storybook/test-runner -D
+
+Instale o Axios para fazer chamadas http (chamada entre o front-end e o back-end)
+> npm install axios
+
+
+# Testes no Storybook 
+
+- Adicione ao package.json o seguinte:
+  > "test-storybook": "test-storybook"
+
+- Depois execute no terminal:
+  > npm run test-storybook
+  Ou
+  > npm run test-storybook -- --watch
+  Para rodar testes enquanto realiza alterações nos componentes (Não funcionou)
+
+- Instale o MSW (Mock Service Worker) integrado ao storybook
+ > npm install msw msw-storybook-addon -D
+ Depois execute o comando
+  > npx msw init public/
 # GitHub CLI
  
  **Chocolatey install**
