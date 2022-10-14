@@ -34,6 +34,9 @@ Instale o pacote Checkbox do Radix UI com o comando:
 Instale o pacote Deployer do Storybook com o comando:
 > npm i @storybook/storybook-deployer --save-dev
 
+Instale o addon de acessibilidade a11y do Storybook:
+> npm install @storybook/addon-a11y
+
 # GitHub CLI
  
  **Chocolatey install**
