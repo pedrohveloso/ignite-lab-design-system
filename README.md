@@ -2,13 +2,9 @@
 
 Este projeto utiliza:
 
+- TypeScript
 - React
 - Vite
 - Storybook
 - Tailwind
-- Radix UI
-- Postcss
-- Clsx
-- Autoprefixer
-
-
+- Radix
