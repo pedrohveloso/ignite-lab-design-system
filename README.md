@@ -8,4 +8,3 @@ Este projeto utiliza:
 - Storybook
 - Tailwind
 - Radix
-
