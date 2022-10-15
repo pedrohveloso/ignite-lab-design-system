@@ -11,6 +11,7 @@ module.exports = {
       lg: 20,
       xl: 24,
       '2xl': 32,
+      '4xl': 40,
     },
     colors: {
       transparent: 'transparent',
@@ -26,9 +27,10 @@ module.exports = {
         100: '#E1E1E6',
       },
 
-      cyan: {
-        500: '#81D8F7',
-        300: '#98E1FB',
+      violet: {
+        700: '#6d28d9',
+        500: '#8b5cf6',
+        400: '#a78bfa',
       },
     },
     extend: {
